@@ -22,6 +22,6 @@ plt.legend()
 plt.show()
 
 # Image
-img = imread('./assets/tennis.jpeg')
+img = imread('../assets/tennis.jpeg')
 plt.imshow(img)
 plt.show()
