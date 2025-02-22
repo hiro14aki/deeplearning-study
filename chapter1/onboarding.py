@@ -5,6 +5,7 @@ from matplotlib.image import imread
 # sin グラフ
 x = np.arange(0, 6, 0.1)
 y = np.sin(x)
+# グラフの描画
 plt.plot(x, y)
 plt.show()
 
@@ -22,6 +23,7 @@ plt.legend()
 plt.show()
 
 # Image
-img = imread('../assets/tennis.jpeg')
+# 実行するパスからの相対パスで指定
+img = imread('./assets/tennis.jpeg')
 plt.imshow(img)
 plt.show()
